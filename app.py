@@ -9,16 +9,7 @@ import yfinance as yf
 import shap
 import matplotlib.pyplot as plt
 
-# Firebase Config
-firebaseConfig = {
-    "apiKey": "AIzaSyBqWGy0M366wIa2SHhmlZKhfehhbj6_4Xk",
-    "authDomain": "baggrai-d0fbf.firebaseapp.com",
-    "databaseURL": "https://baggrai-d0fbf-default-rtdb.firebaseio.com",
-    "projectId": "baggrai-d0fbf",
-    "storageBucket": "baggrai-d0fbf.appspot.com",
-    "messagingSenderId": "944571406375",
-    "appId": "1:944571406375:web:cf4f495340215832ec9602"
-}
+
 
 # Initialize Firebase Admin
 if not firebase_admin._apps:
